@@ -1,9 +1,9 @@
 ![](img/todolist.png)
 # Holly FE "onboarding"
-Tak tohle je přesně to místo, kde je začít při hledání úvodu do psaní frontendu u nás v Holly. Najdeš tu:
+Tak tohle je přesně to místo, kde začít, když chceš dělat frontend u nás v Holly. Najdeš tu:
 
 - Klasický sample **TODO list** za použití přesně těch principů a technologií, které používáme.
-- Seznam **dokumentace** se kterou je dobré se seznámit a kde hledat, pokud něco není jasné.
+- Seznam **dokumentace**, se kterou je dobré se seznámit a kde hledat, pokud něco není jasné.
 
 ## TODO list 
 
@@ -29,25 +29,27 @@ Výsledek buildu je ve složce *build*.
 ### Testy
 V *src/__tests__* jsou ukázky třech typů testů:
 
-- **Smoke.test.tsx** způsob jak zjistit, jestli se nám to vůbec podaří komponentu inicializovat.
-- **Snapshot.test.tsx** testy které nám řeknou, jestli se v našich UI komponentách něco změnilo (to jestli to byla změna k lepšímu už zkontroluje sami).
+- **Smoke.test.tsx** způsob jak zjistit, jestli se nám vůbec podaří komponentu inicializovat.
+- **Snapshot.test.tsx** testy, které nám řeknou, jestli se v našich UI komponentách něco změnilo (to, jestli to byla změna k lepšímu, už zkontroluje sami).
 - **Unit.test.ts** klasický unit test.
 
-A jak spustit testy:
+Jak spustit testy:
 
     yarn test
 
 ### MobX DevTools
-MobX DevTools jsou skvělý pomocník pokud jde o zobrazení toho kdy a co se na obrazovce překresluje. A jak je zapnout:
+MobX DevTools jsou skvělý pomocník, pokud jde o vizualizaci toho, kdy a co se na obrazovce překresluje. 
+
+Jak je zapnout:
 
     1. Otevřít soubor *src/App.tsx*.
     2. Změnit konstantu **enableDevTools** na **true**.
 
-### Máš dotaz nebo je něco blbě?
+### Máš dotaz nebo se ti něco nezdá?
 
   1. Zeptej se někoho z nás.
   2. Nikoho z nás neznáš. Nevadí, dej nám vědet na twitteru [@HollySolutions](https://twitter.com/HollySolutions) nebo třeba na mail [michal.racek@hollysolutions.cz](mailto:michal.racek@hollysolutions.cz).
-  3. A jestli je něco fakt blbě máme na gitlabu otevřené [issues](https://gitlab.com/holly-prototypes/feonboard/issues). A zpětná vazba je pro nás fakt důležitá.
+  3. A jestli je něco fakt blbě, máme na gitlabu otevřené [issues](https://gitlab.com/holly-prototypes/feonboard/issues). Zpětná vazba je pro nás fakt důležitá.
 
 ## Dokumentace
 ### React
@@ -67,7 +69,7 @@ Zkusit si jednoduché příklady v sandboxech a trochu si s nimi pohrát:
 - [List Add/Remove](https://codesandbox.io/s/144pzz1q4l)
 
 ### Typescript
-Prosvištět dokumentaci, hlavně:
+Prosvištět dokumentaci:
 
 - [Dokumentace](https://www.typescriptlang.org/docs/home.html)
     - [Basic Types](https://www.typescriptlang.org/docs/handbook/basic-types.html)
@@ -81,12 +83,12 @@ Prosvištět dokumentaci, hlavně:
 ### Typescript + React
 Na vyzkoušení Reactu s Typescriptem dohromady je nejlepší zkusit si rozjet Hello World s React create app s podporou TS: [https://github.com/wmonk/create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript)
 
-Jen v návodu místo npm zkus použít [Yarn](https://yarnpkg.com/en/). Stačí mít yarn nainstalován a tam kde je v postupu npm tak nahradit použitím **yarnu**.
+Jen v návodu místo **npm** zkus použít [Yarn](https://yarnpkg.com/en/). Stačí mít yarn nainstalován, a tam, kde je v postupu **npm**, tak nahradit použitím **yarnu**.
 
 **A nebo tuhle část preskočit a rozvalit hned náš TODO list sample.**
 
 ### MobX
-MobX není třeba znát uplně detailně, ale pro sbežné seznámení stačí mrknout sem:
+MobX není třeba znát uplně detailně, ale pro zbežné seznámení stačí mrknout sem:
 
 - [The gist of MobX](https://mobx.js.org/intro/overview.html)
 - [Concepts & Principles](https://mobx.js.org/intro/concepts.html)
