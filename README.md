@@ -19,17 +19,29 @@ Tak tohle je přesně to místo, kde je začít při hledání úvodu do psaní 
     yarn install
     yarn start
 
-### Jak to sbuildit
+### Build
 
     yarn install
     yarn build
 
 Výsledek buildu je ve složce *build*.
 
-### Jak spustit test
+### Testy
+V *src/__tests__* jsou ukázky třech typů testů:
+
+- **Smoke.test.tsx** způsob jak zjistit, jestli se nám to vůbec podaří komponentu inicializovat.
+- **Snapshot.test.tsx** testy které nám řeknou, jestli se v našich UI komponentách něco změnilo (to jestli to byla změna k lepšímu už zkontroluje sami).
+- **Unit.test.ts** klasický unit test.
+
+A jak spustit testy:
 
     yarn test
 
+### MobX DevTools
+MobX DevTools jsou skvělý pomocník pokud jde o zobrazení toho kdy a co se na obrazovce překresluje. A jak je zapnout:
+
+    1. Otevřít soubor *src/App.tsx*.
+    2. Změnit konstantu **enableDevTools** na **true**.
 
 ### Máš dotaz nebo je něco blbě?
 
