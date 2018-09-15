@@ -2,7 +2,7 @@
 # Holly FE "onboarding"
 Tak tohle je přesně to místo, kde je začít při hledání úvodu do psaní frontendu u nás v Holly. Najdeš tu:
 
-- Klasický sample **TODO list** za použití přesně těch principů a technologíí, které používame.
+- Klasický sample **TODO list** za použití přesně těch principů a technologií, které používáme.
 - Seznam **dokumentace** se kterou je dobré se seznámit a kde hledat, pokud něco není jasné.
 
 ## TODO list 
@@ -35,7 +35,7 @@ Výsledek buildu je ve složce *build*.
 
   1. Zeptej se někoho z nás.
   2. Nikoho z nás neznáš. Nevadí, dej nám vědet na twitteru [@HollySolutions](https://twitter.com/HollySolutions) nebo třeba na mail [michal.racek@hollysolutions.cz](mailto:michal.racek@hollysolutions.cz).
-  3. A jestli je něco fakt blbě máme na gitlabu otevřené issues. A zpětná vazba je pro nás fakt důležitá.
+  3. A jestli je něco fakt blbě máme na gitlabu otevřené [issues](https://gitlab.com/holly-prototypes/feonboard/issues). A zpětná vazba je pro nás fakt důležitá.
 
 ## Dokumentace
 ### React
