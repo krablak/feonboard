@@ -1,3 +1,4 @@
+![](img/todolist.png)
 # Holly FE "onboarding"
 Tak tohle je přesně to místo, kde je začít při hledání úvodu do psaní frontendu u nás v Holly. Najdeš tu:
 
@@ -5,6 +6,9 @@ Tak tohle je přesně to místo, kde je začít při hledání úvodu do psaní 
 - Seznam **dokumentace** se kterou je dobré se seznámit a kde hledat, pokud něco není jasné.
 
 ## TODO list 
+
+![](img/feonboarding-1.gif)
+
 ### Co mít nainstalováno
 
 - Poslední verzi [Node.js](https://nodejs.org/en/)
@@ -12,8 +16,26 @@ Tak tohle je přesně to místo, kde je začít při hledání úvodu do psaní 
 
 ### Jak to spustit
 
+    yarn install
+    yarn start
+
+### Jak to sbuildit
+
+    yarn install
+    yarn build
+
+Výsledek buildu je ve složce *build*.
+
+### Jak spustit test
+
+    yarn test
 
 
+### Máš dotaz nebo je něco blbě?
+
+  1. Zeptej se někoho z nás.
+  2. Nikoho z nás neznáš. Nevadí, dej nám vědet na twitteru [@HollySolutions](https://twitter.com/HollySolutions) nebo třeba na mail [michal.racek@hollysolutions.cz](mailto:michal.racek@hollysolutions.cz).
+  3. A jestli je něco fakt blbě máme na gitlabu otevřené issues. A zpětná vazba je pro nás fakt důležitá.
 
 ## Dokumentace
 ### React
