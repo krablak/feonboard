@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem snapshot test 1`] = `
+<li
+  className=""
+>
+  <div
+    className="view"
+  >
+    <input
+      checked={false}
+      className="toggle"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label>
+      title
+    </label>
+    <button
+      className="destroy"
+      onClick={[Function]}
+    />
+  </div>
+</li>
+`;
