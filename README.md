@@ -96,7 +96,7 @@ MobX není třeba znát uplně detailně, ale pro zbežné seznámení stačí m
 A pohrát si třeba s tímto příkladem: [https://codesandbox.io/s/v3v0my2370](https://codesandbox.io/s/v3v0my2370)
 
 ### IDE
-Pro vývoj používáme [VSCode](https://code.visualstudio.com), ale klidně použij WebStorm nebo cokoliv ti sedí. Pro VSCode pak doporučuju následující rozšíření:
+Pro vývoj používáme [VSCode](https://code.visualstudio.com), ale klidně použij WebStorm nebo cokoliv ti sedí. Pro VSCode pak doporučuji následující rozšíření:
 
 -  [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 -  [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
