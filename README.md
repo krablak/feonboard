@@ -30,7 +30,7 @@ Výsledek buildu je ve složce *build*.
 V *src/_\_tests__* jsou ukázky třech typů testů:
 
 - **Smoke.test.tsx** způsob jak zjistit, jestli se nám vůbec podaří komponentu inicializovat.
-- **Snapshot.test.tsx** testy, které nám řeknou, jestli se v našich UI komponentách něco změnilo (to, jestli to byla změna k lepšímu, už zkontroluje sami).
+- **Snapshot.test.tsx** testy, které nám řeknou, jestli se v našich UI komponentách něco změnilo (to, jestli to byla změna k lepšímu, už zkontrolujeme sami).
 - **Unit.test.ts** klasický unit test.
 
 Jak spustit testy:
