@@ -9,8 +9,8 @@
     "mobx": "4.5.2",
     "mobx-react": "5.3.5",
     "mobx-react-devtools": "5.0.1",
-    "react": "16.5.1",
-    "react-dom": "16.5.1"
+    "react": "16.6.0",
+    "react-dom": "16.6.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
