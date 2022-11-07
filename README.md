@@ -1,5 +1,5 @@
 ![](img/todolist.png)
-# Holly FE "onboarding"
+# Holly FE "onboarding" [REPO BACKUP] 
 Tak tohle je přesně to místo, kde začít, když chceš dělat frontend u nás v Holly. Najdeš tu:
 
 - Klasický sample **TODO list** za použití přesně těch principů a technologií, které používáme.
